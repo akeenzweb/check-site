@@ -7,7 +7,7 @@
     <div class="container-fluid" id="how">
         <div class="row first-row" >
             <div class="col-md-6 col-A1 col-sm-12 ">
-                <h3 class="imagine-a-life slide-in"><b>Imagine a life of no delay...</b></h3>
+                <h3 class="imagine-a-life slide-in"><b>Imagine a life of no delaysss...</b></h3>
 
                     <ul class="list1 slide-in-delay1">
                         <!--<img src="../assets/images/Rectangle-19.png"><li>Restaurant menu at a glance</li><br>
