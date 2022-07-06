@@ -375,7 +375,7 @@ li img {
         margin: auto;
         margin-right: 210px;
         /*border: 1px solid red;*/
-        word-break: break-all;
+        /*word-break: break-all;*/
         margin-left: 20px;
     }
     ul {
