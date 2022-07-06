@@ -1,10 +1,17 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-view v-slot="{ Component }">
+      <transition name="route" mode="out-in" appear>
+        <component :is="Component"></component>
+      </transition>
+    </router-view>
+    <!--<router-view/>-->
+    <!--<router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>-->
   </nav>
-  <router-view/>
+
 </template>
+
 
 <style>
 #app {
@@ -14,17 +21,63 @@
   text-align: center;
   color: #2c3e50;
 }
-
-nav {
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/*nav {
   padding: 30px;
 }
 
 nav a {
   font-weight: bold;
   color: #2c3e50;
-}
+}*/
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #a70707;
 }
+
+
+.route-enter-from {
+  opacity: 0;
+  transform: translateX(1800px);
+}
+.route-enter-to {
+  opacity: 1;
+  transform: translateX(0);
+}
+.route-enter-active {
+  transition: all 0.4s ease;
+}
+
+.route-leave-from {
+  opacity: 1;
+  transform: translateX(0);
+}
+.route-leave-to {
+  opacity: 0;
+  transform: translateX(-1800px);
+}
+.route-leave-active {
+  transition: all 0.4s ease;
+
+}
+
+
+.slide-in {
+    animation-name: slide-in;
+    animation-duration: 1.5s;
+}
+.slide-in-delay1 {
+    animation-name: slide-in;
+    animation-duration: 2.5s;
+    /*animation-delay: 0.5s;*/
+}
+
+.slide-out {
+    animation-name: slide-out;
+    animation-duration: 1.5s;
+}
+
 </style>
