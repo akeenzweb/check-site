@@ -365,15 +365,15 @@ export default {
         height: 1280px;
     }
     .calling {
-        width: 338px;
-        height: 274px;
+        width: 318px;
+        height: 254px;
         /*transform: scale(0.8);*/
     }
     .we-wake, .we-wake2 {
         font-size: 22px;
         line-height: 30px;
         letter-spacing: -0.05em;
-        width: 350px;
+        width: 340px;
         margin-left: 20px;
     }
     .img2 {
@@ -382,10 +382,10 @@ export default {
     }
     .we-wake {
         margin-top: 70px;
-        transform: translateY(-350px);
+        transform: translateY(-320px);
     }
     .we-wake2 {
-        margin-top: 85px;
+        margin-top: 55px;
     }
 
 }

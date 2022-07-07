@@ -7,7 +7,7 @@
     <div class="container-fluid" id="how">
         <div class="row first-row" >
             <div class="col-md-6 col-A1 col-sm-12 ">
-                <h3 class="imagine-a-life slide-in"><b>Imagine a life of no delaysss...</b></h3>
+                <h3 class="imagine-a-life slide-in"><b>Imagine a life of no delay...</b></h3>
 
                     <ul class="list1 slide-in-delay1">
                         <!--<img src="../assets/images/Rectangle-19.png"><li>Restaurant menu at a glance</li><br>
@@ -176,7 +176,7 @@ export default {
 .stores {
     margin-top: 50px;
     margin-bottom: 70px;
-    transform: translateX(-30px);
+    transform: translateX(-0px);
 }
 .store2 {
     margin-left: 23px;
@@ -358,17 +358,17 @@ li img {
 
 
 @media screen and (max-width: 700px) {
-    .home {
-        /*overflow-x: hidden;*/
+    /*.home {
+        overflow-x: hidden;
         position: relative;
-    }
+    }*/
     * {
         margin: 0%;
         padding: 0%;
     }
     .imagine-a-life {
         font-size: 70px;
-        width: 305px;
+        width: 300px;
         line-height: 70px;
         padding: 0%;
 
@@ -390,20 +390,25 @@ li img {
         font-size: 18px;
         line-height: 20px;
         margin-bottom: 15px;
-        width: 300px;
-        padding-right: -35px;
+        /*width: 250px;*/
+        /*padding-right: -35px;*/
+        padding-left: 0;
+
+    }
+    li:nth-child(5){
+        margin-right: 100px;
     }
     .stores {
         padding: 0px;
-        transform: translateX(-13px);
+        transform: scale(0.9) translateX(-13px);
     }
     .store1 {
-        transform: scale(0.75) translateX(15px);
+        transform: scale(0.75) translateX(20px);
         margin-right: 0px;
 
     }
     .store2 {
-        transform: scale(0.75) translateX(-15px);
+        transform: scale(0.75) translateX(-20px);
         margin-left: 0px;
 
     }
@@ -426,7 +431,7 @@ li img {
     .img1 {
         /*width: 437px;
         height: 400px;*/
-        transform: scale(0.45) translate(0px, -300px);   /*translate(-455px, -900px) */
+        transform: scale(0.45) translate(-20px, -300px);   /*translate(-455px, -900px) */
         margin: auto;
         margin-top: -50px;
         /*margin-right:-90px;*/
@@ -465,7 +470,7 @@ li img {
     .img2 {
         /*transform: scale(0.15) translate(-5750px, -21250px);*/  /* translate(-3300px, -8750px) */
         height: 450px;
-        width: 350px;
+        width: 320px;
         text-align: center;
         transform: translate(0px, -280px);
         margin-top: 50px;

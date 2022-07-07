@@ -88,9 +88,11 @@
 
 @media screen and (max-width: 700px){
     .woman {
-        width: 405px;
-        height: 305px;
+        width: 355px;
+        height: 255px;
         margin-top: 50px;
+
+        margin-right: 20px;
     }
     .QR {
         font-size: 45px;

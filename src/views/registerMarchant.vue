@@ -19,17 +19,18 @@
     </div>
 
     <div class="row row2register">
-        <div class="col-md-6">
+        <aos-vue animation="slide-right" class="col-md-6">
             <img src="../assets/images/m-img-1.png" class="table">
-        </div>
+        </aos-vue>
 
         <div class="col-md-6">
-            <div class="number1">
+            <aos-vue animation="slide-left" class="number1">
                 <img src="../assets/pic1/pic2/01.png" class="num1"><br>
-                <div class="restaurant-block">
+                <p class="restaurant-class">Restaurant</p>
+                <!--<div class="restaurant-block">
                     <img src="../assets/pic1/pic2/Rectangle-64.png" class="restaurant-box">
                     <img src="../assets/pic1/pic2/Restaurant.png" class="restaurant">
-                </div>
+                </div>-->
 
 
                 <h3 class="trying-to">Trying to sell to tens of customers at the same time is tiring, Our app will save you!</h3>
@@ -38,12 +39,12 @@
                 <ul class="list1">
                     <li><img src="../assets/images/check-pink.png" class="check"><p class="list-text">Up to 30% increase sales</p></li><br>
                     <li><img src="../assets/images/check-pink.png" class="check"><p class="list-text">Quick menu look-up for customer</p></li><br>
-                    <li><img src="../assets/images/check-pink.png" class="check"><p class="list-text">No more change and POS delay</p></li><br><br>
+                    <img src="../assets/images/check-pink.png" class="check"><li><p class="list-text list3">No more change and POS delay</p></li><br><br>
 
                     <button>Start Now</button>
 
                 </ul>
-            </div>
+            </aos-vue>
         </div>
     </div>
 
@@ -51,10 +52,11 @@
         <div class="col-md-6">
             <div class="number2">
                 <img src="../assets/pic1/pic2/02.png" class="num1"><br>
-                <div class="supermarket-block">
+                <p class="supermarket-class">Supermarket</p>
+                <!--<div class="supermarket-block">
                     <img src="../assets/pic1/pic2/Rectangle-69.png" class="restaurant-box">
                     <img src="../assets/pic1/pic2/Supermarket.png" class="restaurant ">
-                </div>
+                </div>-->
 
 
                 <h3 class="trying-to">Trying to sell to tens of customers at the same time is tiring, Our app will save you!</h3>
@@ -63,7 +65,7 @@
                 <ul class="list1">
                     <li><img src="../assets/images/check-green.png" class="check"><p class="list-text">Up to 30% increase sales</p></li><br>
                     <li><img src="../assets/images/check-green.png" class="check"><p class="list-text">Quick menu look-up for customer</p></li><br>
-                    <li><img src="../assets/images/check-green.png" class="check"><p class="list-text">No more change and POS delay</p></li><br><br>
+                    <li><img src="../assets/images/check-green.png" class="check"><p class="list-text list6">No more change and POS delay</p></li><br><br>
 
                     <button>Start Now</button>
 
@@ -71,9 +73,9 @@
             </div>
         </div>
 
-        <div class="col-md-6">
+        <aos-vue animation="slide-left" class="col-md-6">
             <img src="../assets/images/m-img-2.png" class="woman-with-phone-pic">
-        </div>
+        </aos-vue>
     </div>
 
 
@@ -212,22 +214,71 @@ export default {
     float: left;
     margin-left: 50px;
 }
-.restaurant-box {
+.restaurant-class {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #9D5259;
+    padding: 0px 34px 0px 34px;
+    width: 231px;
+    height: 50px;
+    /*left: 821px;
+    top: 958px;*/
+
+    background: #F6E7F6;
+    border-radius: 5px;
+    margin-top: 27px;
+    margin-left: 50px;
+}
+
+.supermarket-class {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #58836B;
+    padding: 0px 17px 0px 17px;
+    width: 231px;
+    height: 50px;
+    /*left: 821px;
+    top: 958px;*/
+
+    background: #C1EDD4;
+    border-radius: 5px;
+    margin-top: 27px;
+    margin-left: 50px;
+}
+/*.restaurant-box {
     transform: translateY(20px) translateX(-30px);
 }
 .restaurant-block {
     float: left;
     margin-top: 5px;
     margin-left: -7px;
-}
-.supermarket-block {
+}*/
+/*.supermarket-block {
     float: left;
     margin-top: 5px;
     margin-left: -15px;
 }
 .restaurant {
     transform: translateY(20px) translateX(-230px);
-}
+}*/
 .number1 {
     /*transform: translateY(-260px);*/
     transform: translateY(15px);
@@ -244,7 +295,7 @@ export default {
     letter-spacing: -0.05em;
     text-align: left;
     width: 580px;
-    transform: translateY(60px) translateX(50px);
+    transform: translateY(30px) translateX(50px);
     margin-bottom: 40px;
     color: black;
     font-family: 'Euclid Circular A';
@@ -283,6 +334,12 @@ li {
 .list-text {
     margin-left: 10px;
     display: inline-block;
+}
+.list3 {
+    transform: translate(40px, -30px);
+}
+.list6 {
+    transform: translate(0px, 0px);
 }
 button {
     width: 294px;
@@ -341,13 +398,17 @@ button:hover {
     .first-container {
         text-align: left;
         height: 1200px;
+        margin-left: 0%;
     }
     .we-are-obsessed {
         font-size: 60px;
         line-height: 70px;
         text-align: left;
         width: 350px;
-        margin-left: 0px;
+        margin-left: 20px;
+        left: 0%;
+        transform: translateX(0%);
+        /*transform: translateX(-55%);*/
     }
     .how-we-built {
         text-align: left;
@@ -356,8 +417,10 @@ button:hover {
     }
     .our-expert {
         text-align: left;
-        margin-left: 0px;
-        width: 350px;
+        margin-left: 20px;
+        width: 310px;
+        left: 0%;
+        transform: translateX(0%);
     }
     .color {
         /* transform: translateY(-80px); */
@@ -368,16 +431,16 @@ button:hover {
         margin-left: 0px;
         margin-bottom: 204px;
 
-        width: 340px;
+        width: 320px;
         /*height: 523px;*/
-        height: 483px;
+        height: 463px;
     }
     .woman-with-phone-pic {
         margin-left: 0px;
         margin-bottom: 204px;
 
-        width: 340px;
-        height: 483px;
+        width: 320px;
+        height: 463px;
     }
 
     .num1{
@@ -390,32 +453,49 @@ button:hover {
     .number1 {
         margin-top: -120px;
     }
+    .restaurant-class {
+        margin-left: 30px;
+    }
+    .supermarket-class {
+        margin-left: 30px;
+    }
+    /*.restaurant-box {
+        transform: translateY(20px) translateX(-90px);
+    }
     .restaurant-block {
         transform: translateX(60px);
     }
     .supermarket-block {
         transform: translateX(75px);
-    }
+    }*/
     .trying-to {
         font-size: 45px;
         line-height: 50px;
         letter-spacing: -0.05em;
         text-align: left;
-        width: 340px;
+        width: 310px;
         margin-left: 0;
         transform: translateY(60px) translateX(30px);
     }
     .you-are-here {
-        width: 340px;
+        width: 320px;
         transform: translateY(40px) translateX(30px);
     }
     ul {
         margin-left: 30px;
         width: 380px;
+        /*white-space: nowrap;*/
     }
     .list-text {
         margin-left: 0px;
         display: inline-block;
+        width: 310px;
+    }
+    .list3 {
+        width: 280px;
+    }
+    .list6 {
+        width: 280px;
     }
     .check {
         display: inline-block;
