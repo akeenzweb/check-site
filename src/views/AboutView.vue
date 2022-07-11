@@ -36,7 +36,7 @@
 
             <div class="row">
                 <div class="col-B1 col-md-6">
-                    <img src="../assets/images/man.png" class="calling img1">
+                    <img src="../assets/images/banner-1.png" class="calling img1">
                     <img src="../assets/images/man.png" class="calling img2">
                 </div>
                 <div class="col-B2 col-md-6">
@@ -45,12 +45,13 @@
                 </div>
             </div>
         </div>
+        <img src="../assets/images/Vector-32.png" class="girl-at-supermarket">
     </div>
 
 
 
 
-    <qrSection></qrSection>
+    <!--<qrSection></qrSection>-->
     <oneApp></oneApp>
     <trustedBy></trustedBy>
     <footerLinks></footerLinks>
@@ -60,7 +61,7 @@
 <script>
 
 import appHeader from '../components/headerNav.vue';
-import qrSection from '../components/qrSection.vue';
+//import qrSection from '../components/qrSection.vue';
 import oneApp from '../components/oneApp.vue';
 import trustedBy from '../components/trustedBy.vue';
 import footerLinks from '../components/linksFooter.vue';
@@ -69,7 +70,7 @@ export default {
   name: 'AboutView',
   components: {
     appHeader,
-    qrSection,
+    //qrSection,
     oneApp,
     trustedBy,
     footerLinks
@@ -238,6 +239,9 @@ export default {
     text-align: left;
     font-family: 'Euclid Circular A';
 }
+.girl-at-supermarket {
+    margin-top: 114px;
+}
 
 @keyframes slide-from-up {
     from {
@@ -368,6 +372,11 @@ export default {
         width: 318px;
         height: 254px;
         /*transform: scale(0.8);*/
+    }
+    .girl-at-supermarket {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
     }
     .we-wake, .we-wake2 {
         font-size: 22px;

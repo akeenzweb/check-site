@@ -23,7 +23,7 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <button class="download-button" type="submit">Download App <img src="../assets/images/Vector-2.png"></button>
+        <button class="download-button" >Download App <img src="../assets/images/Vector-2.png"></button>
       </form>
     </div>
   </div>
@@ -127,7 +127,7 @@ a:hover {
 
 }
 .download-button {
-    padding: 18px 66px 18px 29px;
+    padding: 18px 46px 18px 39px;
     /*width: 230px;
     height: 62px;*/
     border-radius: 40px;
@@ -136,6 +136,7 @@ a:hover {
     color: #fff;
     background-color: black;
     padding-left: -2px;
+    text-align: center;
 }
 button img {
     width: 32px;

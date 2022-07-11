@@ -411,6 +411,8 @@
 
 .header {
     color: red;
+    background-color: black;
+    /*padding: 20px;*/
 }
 /* .header h5 {
     font-weight: lighter;
@@ -419,20 +421,21 @@
     font-weight: bolder;
 }
 .subHeader {
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: #FF0808;*/
     font-size: 60px;
     font-weight: 700;
     margin-top: 120px;
     font-family: poppins;
     font-family: 'Euclid Circular A';
 
-    /*color: rgb(221, 24, 24);*/
-    color: #FF0808;
 
-    /*background: linear-gradient(90deg, rgba(220,12,201,1) 0%, rgba(129,55,203,1) 64%, rgba(242,180,159,1) 90%);
+
+    background: rgb(163,90,195);
+    background: linear-gradient(90deg, rgba(163,90,195,1) 21%, rgba(254,223,166,1) 53%, rgba(232,168,166,1) 64%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;*/
+    background-clip: text;
 }
 .header h1:nth-child(2) {
     border-bottom: 2px solid red;

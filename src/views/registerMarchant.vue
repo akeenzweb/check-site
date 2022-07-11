@@ -19,12 +19,18 @@
     </div>
 
     <div class="row row2register">
+
         <aos-vue animation="slide-right" class="col-md-6">
-            <img src="../assets/images/m-img-1.png" class="table">
+            <aos-vue animation="fade-in">
+                <img src="../assets/images/Vector-34.png" class="table">
+            </aos-vue>
+
         </aos-vue>
 
-        <div class="col-md-6">
-            <aos-vue animation="slide-left" class="number1">
+
+
+        <aos-vue animation="slide-left" class="col-md-6">
+            <div class="number1">
                 <img src="../assets/pic1/pic2/01.png" class="num1"><br>
                 <p class="restaurant-class">Restaurant</p>
                 <!--<div class="restaurant-block">
@@ -44,12 +50,13 @@
                     <button>Start Now</button>
 
                 </ul>
-            </aos-vue>
-        </div>
+            </div>
+        </aos-vue>
     </div>
 
     <div class="row row2register">
-        <div class="col-md-6">
+        <!--<>-->
+            <aos-vue animation="slide-right" class="col-md-6">
             <div class="number2">
                 <img src="../assets/pic1/pic2/02.png" class="num1"><br>
                 <p class="supermarket-class">Supermarket</p>
@@ -59,7 +66,7 @@
                 </div>-->
 
 
-                <h3 class="trying-to">Trying to sell to tens of customers at the same time is tiring, Our app will save you!</h3>
+                <h3 class="trying-to">Trying to sell to tens of customers at the same time is tiring, Check will save you!</h3>
                 <h3 class="you-are-here">You are here because the future matters. We  thought  of what you need and expressed it in this beautiful piece of technology.</h3><br><br>
 
                 <ul class="list1">
@@ -71,10 +78,14 @@
 
                 </ul>
             </div>
-        </div>
+        </aos-vue>
+        <!--</>-->
+
 
         <aos-vue animation="slide-left" class="col-md-6">
-            <img src="../assets/images/m-img-2.png" class="woman-with-phone-pic">
+            <aos-vue animation="fade-in">
+                <img src="../assets/images/Vector-33.png" class="woman-with-phone-pic">
+            </aos-vue>
         </aos-vue>
     </div>
 
@@ -390,6 +401,8 @@ button:hover {
 .slide-from-right {
     animation: slide-from-right 1.5s;
 }
+
+
 
 
 

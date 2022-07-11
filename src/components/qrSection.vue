@@ -106,6 +106,9 @@
     .btn2 {
         margin-left: 20px;
     }
+    .qrSection {
+        margin-bottom: 50px;
+    }
 
 }
 

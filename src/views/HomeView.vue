@@ -30,7 +30,7 @@
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="img1-div col-xs-12">
-                        <img src="../assets/images/banner-1.png" class="img1 slide-from-right">
+                        <img src="../assets/images/Vector-31.png" class="img1 slide-from-right">
                     </div>
             </div>
 
@@ -278,10 +278,26 @@ li img {
     animation-name: slide-in;
     animation-duration: 1.5s;
 }
-.slide-in-delay1 {
+/*.slide-in-delay1 {
     animation-name: slide-in;
     animation-duration: 2.5s;
-    /*animation-delay: 0.5s;*/
+
+}*/
+ul li:nth-child(1) {
+    animation-name: stagger;
+    animation-duration: 1s;
+}
+ul li:nth-child(3) {
+    animation-name: stagger;
+    animation-duration: 3s;;
+}
+ul li:nth-child(5) {
+    animation-name: stagger;
+    animation-duration: 5s;
+}
+ul li:nth-child(7) {
+    animation-name: stagger;
+    animation-duration: 7s;
 }
 
 .slide-out {
@@ -339,6 +355,18 @@ li img {
     }
 }
 
+/*Stagger animations for the list */
+
+@keyframes stagger {
+ from {
+    opacity: 0;
+    transform: translateY(20px);
+ };
+ to {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
 
  /*  Animation starts here */
   [data-aos='phone1-slide'] {

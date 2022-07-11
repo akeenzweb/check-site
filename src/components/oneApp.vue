@@ -87,7 +87,7 @@
 
 @media screen and (max-width: 700px) {
     .row {
-        margin-top: 70px;
+        margin-top: 0px;
         height: 422px;
     }
     .line {
