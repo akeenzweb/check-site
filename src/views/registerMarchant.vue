@@ -20,7 +20,7 @@
 
     <div class="row row2register">
 
-        <aos-vue animation="slide-right" class="col-md-6">
+        <aos-vue animation="fade-right" class="col-md-6">
             <aos-vue animation="fade-in">
                 <img src="../assets/images/Vector-34.png" class="table">
             </aos-vue>
@@ -29,7 +29,7 @@
 
 
 
-        <aos-vue animation="slide-left" class="col-md-6">
+        <aos-vue animation="fade-left" class="col-md-6">
             <div class="number1">
                 <img src="../assets/pic1/pic2/01.png" class="num1"><br>
                 <p class="restaurant-class">Restaurant</p>
@@ -56,7 +56,7 @@
 
     <div class="row row2register">
         <!--<>-->
-            <aos-vue animation="slide-right" class="col-md-6">
+            <aos-vue animation="fade-right" class="col-md-6">
             <div class="number2">
                 <img src="../assets/pic1/pic2/02.png" class="num1"><br>
                 <p class="supermarket-class">Supermarket</p>
@@ -82,7 +82,7 @@
         <!--</>-->
 
 
-        <aos-vue animation="slide-left" class="col-md-6">
+        <aos-vue animation="fade-left" class="col-md-6">
             <aos-vue animation="fade-in">
                 <img src="../assets/images/Vector-33.png" class="woman-with-phone-pic">
             </aos-vue>
@@ -407,7 +407,7 @@ button:hover {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .first-container {
         text-align: left;
         height: 1200px;

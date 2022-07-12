@@ -15,6 +15,7 @@
     "gsap": "^3.10.4",
     "vue": "^3.2.37",
     "vue-router": "^4.0.3",
+    "vue-zoom-scroll": "^1.0.29",
     "vuex": "^4.0.0"
   },
   "devDependencies": {

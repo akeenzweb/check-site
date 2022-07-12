@@ -972,7 +972,7 @@ section {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .container {
     padding: 0px;
   }

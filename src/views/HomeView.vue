@@ -28,10 +28,10 @@
                         <!--<img src="../assets/images/playstore-logo.png" class="playStore">-->
                     </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="img1-div col-xs-12">
-                        <img src="../assets/images/Vector-31.png" class="img1 slide-from-right">
-                    </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 ">
+                <div class="img1-div col-xs-12 ">
+                    <img src="../assets/images/Vector-31.png" class="img1 slide-from-right">
+                </div>
             </div>
 
         </div>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="row row3">
-            <aos-vue animation="slide-right"  class="col-B1 col-md-6 col-xs-12 image">
+            <aos-vue animation="fade-right"  class="col-B1 col-md-6 col-xs-12 image">
                 <img src="../assets/images/phone2.png" class="phone-1">
             </aos-vue>
             <div class="col-B1 col-md-6 col-xs-12">
@@ -57,8 +57,8 @@
 
                 <!--<img src="../assets/images/phone2-mini.png" class="img3 col-xs-12">-->
                     </div>
-                    <aos-vue animation="slide-left" easing="ease-in" class="col-md-12 col-xs-12">
-                        <img src="../assets/images/phone2-mini.png" class="img3 col-xs-12">
+                    <aos-vue animation="fade-up" easing="ease-in" class="col-md-12 col-xs-12">
+                        <img src="../assets/images/phone-2-edit.png" class="img3 col-xs-12">
                     </aos-vue>
                 </div>
             </div>
@@ -214,6 +214,7 @@ li img {
     text-align: left;
     margin-left: 126px;
 }
+
 .img1 {
     width: 737px;
     height: 600px;
@@ -385,7 +386,7 @@ ul li:nth-child(7) {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     /*.home {
         overflow-x: hidden;
         position: relative;

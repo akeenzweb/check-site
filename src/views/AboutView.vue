@@ -36,16 +36,17 @@
 
             <div class="row">
                 <div class="col-B1 col-md-6">
-                    <img src="../assets/images/banner-1.png" class="calling img1">
-                    <img src="../assets/images/man.png" class="calling img2">
+                    <aos-vue animation="fade-right"><img src="../assets/images/banner-1.png" class="calling img1"></aos-vue>
+                    <aos-vue animation="fade-right"><img src="../assets/images/man.png" class="calling img2"></aos-vue>
                 </div>
                 <div class="col-B2 col-md-6">
-                    <h3 class="we-wake">We wake up every day to one course, thinknig of how to solve everyday problems in the retail space.</h3>
-                        <h3 class="we-wake2">We wake up every day to one course, thinknig of how to solve everyday problems in the retail space.</h3>
+                    <aos-vue animation="fade-left"><h3 class="we-wake">We wake up every day to one course, thinknig of how to solve everyday problems in the retail space.</h3></aos-vue>
+                        <aos-vue animation="fade-left"><h3 class="we-wake2">We wake up every day to one course, thinknig of how to solve everyday problems in the retail space.</h3></aos-vue>
                 </div>
             </div>
         </div>
-        <img src="../assets/images/Vector-32.png" class="girl-at-supermarket">
+        <!--<aos-vue animation="zoom-in"><img src="../assets/images/Vector-32.png" class="girl-at-supermarket"></aos-vue>-->
+        <div class="zoom-container"><div class="girl-at-supermarket"><img src="../assets/images/Vector-32.png"></div></div>
     </div>
 
 
@@ -65,6 +66,7 @@ import appHeader from '../components/headerNav.vue';
 import oneApp from '../components/oneApp.vue';
 import trustedBy from '../components/trustedBy.vue';
 import footerLinks from '../components/linksFooter.vue';
+
 
 export default {
   name: 'AboutView',
@@ -239,8 +241,23 @@ export default {
     text-align: left;
     font-family: 'Euclid Circular A';
 }
-.girl-at-supermarket {
+.zoom-container {
+    max-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /*border: 2px solid green;*/
+
     margin-top: 114px;
+}
+.girl-at-supermarket {
+    /*margin-top: 114px;*/
+    /*position: relative;*/
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s;
+}
+.girl-at-supermarket:hover {
+    transform: scale(1.2);
 }
 
 @keyframes slide-from-up {
@@ -299,7 +316,7 @@ export default {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .green-circle {
         height:59px;
         width: 59px;
@@ -373,10 +390,22 @@ export default {
         height: 254px;
         /*transform: scale(0.8);*/
     }
+    .zoom-container {
+        max-height: 100%;
+        width: 100%;
+        overflow: hidden;
+        /*border: 2px solid green;*/
+
+        margin-top: 0px;
+    }
     .girl-at-supermarket {
         width: 100%;
         height: 100%;
         margin-top: 0px;
+    }
+    .zoom-container img {
+        height: 100%;
+        width: 100%;
     }
     .we-wake, .we-wake2 {
         font-size: 22px;
