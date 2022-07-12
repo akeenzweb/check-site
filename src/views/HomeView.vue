@@ -269,8 +269,8 @@ li img {
 .img3 {
     /*transform: scale(0.45) translate(-700px, -7615px);*/
     height: 360px;
-    width: 580px;
-    transform: translate(-100px, -90px);
+    width: 550px;
+    transform: scale(0.9) translate(-100px, -80px);
 }
 .container-fluid{
     height: fit-content;
@@ -512,7 +512,7 @@ ul li:nth-child(7) {
     .img3 {
         /*transform: scale(0.3) translate(0px, 60px);*/
         height: 260px;
-        width: 360px;
+        width: 340px;
         display: block;
         transform: translate(0px, -270px);
     }
