@@ -989,7 +989,7 @@ section {
     width: 50px;
   }
   .introHeader {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 40px;
   }
   button {
@@ -1013,6 +1013,7 @@ section {
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 25px;
   }
   /*.close {
     padding-top: 10px;
