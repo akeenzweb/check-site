@@ -14,7 +14,7 @@
 
                   <div v-show="!read1">
                     <h2 class="introHeader">We are here to protect you</h2>
-                    <button class="btn1" v-show="!read1" @click="read1 = !read1">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1" v-show="!read1" @click="read1 = !read1"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                     <!--<button v-show="showMore2" @click="showMore2 = !showMore2">Show Less</button>-->
                   </div>
 
@@ -30,7 +30,7 @@
                       understood, and agree to our collection, storage, use, and disclosure of your personal information as
                       described in this Privacy Policy and our Terms of Service.<br>
 
-                      <button class="btn1 close" v-show="read1" @click="read1 = !read1">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
+                      <button class="btn1 close" v-show="read1" @click="read1 = !read1"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
                     </p>
                   </div>
                 </section>
@@ -43,7 +43,7 @@
 
                   <div v-show="!read2">
                     <h2 class="introHeader">Definitions and key terms</h2>
-                    <button class="btn1 btn2" v-show="!read2" @click="read2 = !read2">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn2" v-show="!read2" @click="read2 = !read2"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                     <!--<button v-show="showMore2" @click="showMore2 = !showMore2">Show Less</button>-->
                   </div>
 
@@ -113,7 +113,7 @@
                       <button v-show="!showMore1" @click="showMore1 = !showMore1">Read More</button>
                       <button v-show="showMore1" @click="showMore1 = !showMore1">Show Less</button><br>
 
-                      <button class="btn1 btn2 close" v-show="read2" @click="read2 = !read2">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
+                      <button class="btn1 btn2 close" v-show="read2" @click="read2 = !read2"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
                       <!--hghf<br>uuy<br>-->
                     </p>
                   </div>
@@ -127,7 +127,7 @@
                 <section class="sec3">
                   <div v-show="!read3">
                     <h2 class="introHeader">What Information Do We Collect?</h2>
-                    <button class="btn1 btn3" v-show="!read3" @click="read3 = !read3">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn3" v-show="!read3" @click="read3 = !read3"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read3">
@@ -175,7 +175,7 @@
                       <button v-show="!showMore2" @click="showMore2 = !showMore2">Read More</button>
                       <button v-show="showMore2" @click="showMore2 = !showMore2">Show Less</button><br>
 
-                      <button class="btn1 btn3 close" v-show="read3" @click="read3 = !read3">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
+                      <button class="btn1 btn3 close" v-show="read3" @click="read3 = !read3"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
                     </p>
                   </div>
                 </section>
@@ -187,7 +187,7 @@
                 <section class="sec4">
                   <div v-show="!read4">
                     <h2 class="introHeader">How Do We Use The Information we collect?</h2>
-                    <button class="btn1 btn4" v-show="!read4" @click="read4 = !read4">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn4" v-show="!read4" @click="read4 = !read4"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read4">
@@ -243,7 +243,7 @@
                       <button v-show="!showMore3" @click="showMore3 = !showMore3">Read More</button>
                       <button v-show="showMore3" @click="showMore3 = !showMore3">Show Less</button><br>
 
-                      <button class="btn1 btn4 close" v-show="read4" @click="read4 = !read4">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
+                      <button class="btn1 btn4 close" v-show="read4" @click="read4 = !read4"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
                     </p>
                   </div>
                 </section>
@@ -256,7 +256,7 @@
                 <section class="sec5">
                   <div v-show="!read5">
                     <h2 class="introHeader">When does check retail use end user information from third parties?</h2>
-                    <button class="btn1 " v-show="!read5" @click="read5 = !read5">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 " v-show="!read5" @click="read5 = !read5"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read5">
@@ -266,7 +266,7 @@
                       Check retail will collect End User Data necessary to provide the check retail services to our customers.<br><br>
 
                       End users may voluntarily provide us with information they have made available on social media websites. If you provide us with any such information, we may collect publicly available information from the social media websites you have indicated. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings.<br>
-                      <button class="btn1 close" v-show="read5" @click="read5 = !read5">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
+                      <button class="btn1 close" v-show="read5" @click="read5 = !read5"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br>
                     </p>
                   </div>
                 </section>
@@ -281,14 +281,14 @@
                 <section class="sec6">
                   <div v-show="!read6">
                     <h2 class="introHeader">When does check retail use customer information from third parties?</h2>
-                    <button class="btn1 btn2 " v-show="!read6" @click="read6 = !read6">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn2 " v-show="!read6" @click="read6 = !read6"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read6">
                     <h2 class="subHeader">When does check retail use customer information from third parties?</h2><br><br>
 
                     <p>We receive some information from the third parties when you contact us. For example, when you submit your email address to us to show interest in becoming a check retail customer, we receive information from a third party that provides automated fraud detection services to check retail. We also occasionally collect information that is made publicly available on social media websites. You can control how much of your information social media websites make public by visiting these websites and changing your privacy settings.</p>
-                    <button class="btn1 btn2 close" v-show="read6" @click="read6 = !read6">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn2 close" v-show="read6" @click="read6 = !read6"><p class="close-text">Close</p> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
                 </section>
 
@@ -300,7 +300,7 @@
                 <section class="sec7">
                   <div v-show="!read7">
                     <h2 class="introHeader">Do we share the information we collect with third parties?</h2>
-                    <button class="btn1 btn3 " v-show="!read7" @click="read7 = !read7">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn3 " v-show="!read7" @click="read7 = !read7"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read7">
@@ -319,7 +319,7 @@
                     </p>
                     <button v-show="!showMore4" @click="showMore4 = !showMore4">Read More</button>
                     <button v-show="showMore4" @click="showMore4 = !showMore4">Show Less</button><br>
-                    <button class="btn1 btn3 close" v-show="read7" @click="read7 = !read7">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br><br><br>
+                    <button class="btn1 btn3 close" v-show="read7" @click="read7 = !read7"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br><br><br>
                   </div>
                 </section>
 
@@ -332,21 +332,21 @@
                 <section class="sec8">
                   <div v-show="!read8">
                     <h2 class="introHeader">Where and when is information collected from customers and end users?</h2>
-                    <button class="btn1 btn4 " v-show="!read8" @click="read8 = !read8">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn4 " v-show="!read8" @click="read8 = !read8"><span class="close-text">Read</span><img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read8">
                     <h2 class="subHeader">Where and when is information collected from customers and end users? </h2><br>
 
                     <p>Check retail will collect personal information that you submit to us. We may also receive personal information about you from third parties as described above</p>
-                    <button class="btn1 btn4 close" v-show="read8" @click="read8 = !read8">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn4 close" v-show="read8" @click="read8 = !read8"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
                 </section>
 
                 <section class="sec9">
                   <div v-show="!read9">
                     <h2 class="introHeader">How Do We Protect Your Information?</h2>
-                    <button class="btn1 " v-show="!read9" @click="read9 = !read9">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 " v-show="!read9" @click="read9 = !read9"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read9">
@@ -355,7 +355,7 @@
                     <p>
                       We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential. After a transaction, your private information (credit cards, social security numbers, financials, etc.) is never kept on file. We cannot, however, ensure or warrant the absolute security of any information you transmit to check retail or guarantee that your information on the Service may not be accessed, disclosed, altered, or destroyed by a breach of any of our physical, technical, or managerial safeguards.
                     </p>
-                    <button class="btn1 close" v-show="read9" @click="read9 = !read9">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 close" v-show="read9" @click="read9 = !read9"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -368,7 +368,7 @@
                 <section class="sec10">
                   <div v-show="!read10">
                     <h2 class="introHeader">Could my information be transferred to other countries?</h2>
-                    <button class="btn1 btn2" v-show="!read10" @click="read10 = !read10">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn2" v-show="!read10" @click="read10 = !read10"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read10">
@@ -377,7 +377,7 @@
                     <p>
                       Check retail is incorporated in Nigeria. Information collected via our website, through direct interactions with you, or from use of our help services may be transferred from time to time to our offices or personnel, or to third parties, located throughout the world, and may be viewed and hosted anywhere in the world, including countries that may not have laws of general applicability regulating the use and transfer of such data. To the fullest extent allowed by applicable law, by using any of the above, you voluntarily consent to the trans-border transfer and hosting of such information.
                     </p>
-                    <button class="btn1 btn2 close" v-show="read10" @click="read10 = !read10">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn2 close" v-show="read10" @click="read10 = !read10"><span class="close-text">Close</span><img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
                 </section>
 
@@ -388,7 +388,7 @@
                 <section class="sec11">
                   <div v-show="!read11">
                     <h2 class="introHeader">Is the information collected through the check retail Service secure?</h2>
-                    <button class="btn1 btn3" v-show="!read11" @click="read11 = !read11">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn3" v-show="!read11" @click="read11 = !read11"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read11">
@@ -397,7 +397,7 @@
                     <p>
                       We take precautions to protect the security of your information. We have physical, electronic, and managerial procedures to help safeguard, prevent unauthorized access, maintain data security, and correctly use your information. However, neither people nor security systems are foolproof, including encryption systems. In addition, people can commit intentional crimes, make mistakes or fail to follow policies. Therefore, while we use reasonable efforts to protect your personal information, we cannot guarantee its absolute security. If applicable law imposes any non-disclaimable duty to protect your personal information, you agree that intentional misconduct will be the standards used to measure our compliance with that duty.
                     </p>
-                    <button class="btn1 btn3 close" v-show="read11" @click="read11 = !read11">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn3 close" v-show="read11" @click="read11 = !read11"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
                 </section>
 
@@ -409,7 +409,7 @@
                 <section class="sec12">
                   <div v-show="!read12">
                     <h2 class="introHeader">Personnel</h2>
-                    <button class="btn1 btn4" v-show="!read12" @click="read12 = !read12">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn4" v-show="!read12" @click="read12 = !read12"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read12">
@@ -420,7 +420,7 @@
 
                       You may contact us in order to <br>(1) update or correct your information, <br>(2) change your preferences with respect to communications and other information you receive from us, or <br>(3) receive a record of the information we have relating to you. Such updates, corrections, changes and deletions will have no effect on other information that we maintain, or information that we have provided to third parties in accordance with this Privacy Policy prior to such update, correction, change or deletion.
                     </p>
-                    <button class="btn1 btn4 close" v-show="read12" @click="read12 = !read12">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn4 close" v-show="read12" @click="read12 = !read12"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
                 </section>
 
@@ -432,7 +432,7 @@
                 <section class="sec13">
                   <div v-show="!read13">
                     <h2 class="introHeader">Affiliates</h2>
-                    <button class="btn1" v-show="!read13" @click="read13 = !read13">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1" v-show="!read13" @click="read13 = !read13"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read13">
@@ -441,7 +441,7 @@
                     <p>
                       We may disclose information (including personal information) about you to our Corporate Affiliates. For purposes of this Privacy Policy, "Corporate Affiliate" means any person or entity which directly or indirectly controls, is controlled by or is under common control with check retail, whether by ownership or otherwise. Any information relating to you that we provide to our Corporate Affiliates will be treated by those Corporate Affiliates in accordance with the terms of this Privacy Policy.
                     </p>
-                    <button class="btn1 close" v-show="read13" @click="read13 = !read13">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 close" v-show="read13" @click="read13 = !read13"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -454,7 +454,7 @@
                 <section class="sec14">
                   <div v-show="!read14">
                     <h2 class="introHeader">Governing Law</h2>
-                    <button class="btn1 btn2" v-show="!read14" @click="read14 = !read14">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn2" v-show="!read14" @click="read14 = !read14"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read14">
@@ -467,7 +467,7 @@
 
                       By using check retail or contacting us directly, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, you should not engage with our website, or use our services. Continued use of the website, direct engagement with us, or following the posting of changes to this Privacy Policy that do not significantly affect the use or disclosure of your personal information will mean that you accept those changes.
                     </p>
-                    <button class="btn1 btn2 close" v-show="read14" @click="read14 = !read14">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn2 close" v-show="read14" @click="read14 = !read14"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
                 </section>
 
@@ -478,7 +478,7 @@
                 <section class="sec15">
                   <div v-show="!read15">
                     <h2 class="introHeader">Your Consent</h2>
-                    <button class="btn1 btn3" v-show="!read15" @click="read15 = !read15">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn3" v-show="!read15" @click="read15 = !read15"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read15">
@@ -487,7 +487,7 @@
                     <p>
                       We've updated our Privacy Policy to provide you with complete transparency into what is being set when you visit our site and how it's being used. By using our app, registering an account, or making a purchase, you hereby consent to our Privacy Policy and agree to its terms.
                     </p>
-                    <button class="btn1 btn3 close" v-show="read15" @click="read15 = !read15">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn3 close" v-show="read15" @click="read15 = !read15"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
 
@@ -500,7 +500,7 @@
                 <section class="sec16">
                   <div v-show="!read16">
                     <h2 class="introHeader">Payment Detail</h2>
-                    <button class="btn1 btn4" v-show="!read16" @click="read16 = !read16">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn4" v-show="!read16" @click="read16 = !read16"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read16">
@@ -509,7 +509,7 @@
                     <p>
                       In respect to any credit card or other payment processing details you have provided us, we commit that this confidential information will be stored in the most secure manner possible.
                     </p>
-                    <button class="btn1 btn4 close" v-show="read16" @click="read16 = !read16">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn4 close" v-show="read16" @click="read16 = !read16"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -522,7 +522,7 @@
                 <section class="sec17">
                   <div v-show="!read17">
                     <h2 class="introHeader">Kids' Privacy</h2>
-                    <button class="btn1" v-show="!read17" @click="read17 = !read17">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1" v-show="!read17" @click="read17 = !read17"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read17">
@@ -531,7 +531,7 @@
                     <p>
                       We collect information from kids under the age of 13 just to better our services. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data without your permission, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
                     </p>
-                    <button class="btn1 close" v-show="read17" @click="read17 = !read17">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 close" v-show="read17" @click="read17 = !read17"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -544,7 +544,7 @@
                 <section class="sec18">
                   <div v-show="!read18">
                     <h2 class="introHeader">Changes To Our Privacy Policy</h2>
-                    <button class="btn1 btn2" v-show="!read18" @click="read18 = !read18">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn2" v-show="!read18" @click="read18 = !read18"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read18">
@@ -553,7 +553,7 @@
                     <p>
                       We may change our Service and policies, and we may need to make changes to this Privacy Policy so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to this Privacy Policy and give you an opportunity to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Privacy Policy. If you do not want to agree to this or any updated Privacy Policy, you can delete your account.
                     </p>
-                    <button class="btn1 btn2 close" v-show="read18" @click="read18 = !read18">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn2 close" v-show="read18" @click="read18 = !read18"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -566,7 +566,7 @@
                 <section class="sec19">
                   <div v-show="!read19">
                     <h2 class="introHeader">Third-Party Services</h2>
-                    <button class="btn1 btn3" v-show="!read19" @click="read19 = !read19">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn3" v-show="!read19" @click="read19 = !read19"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read19">
@@ -577,7 +577,7 @@
                       You acknowledge and agree that check retail shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof. check retail does not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services.<br><br>
 
                       Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties' terms and conditions.<br>
-                      <button class="btn1 btn3 close" v-show="read19" @click="read19 = !read19">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                      <button class="btn1 btn3 close" v-show="read19" @click="read19 = !read19"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                     </p>
 
                   </div>
@@ -592,7 +592,7 @@
                 <section class="sec20">
                   <div v-show="!read20">
                     <h2 class="introHeader">Tracking Technologies</h2>
-                    <button class="btn1 btn4" v-show="!read20" @click="read20 = !read20">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn4" v-show="!read20" @click="read20 = !read20"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read20">
@@ -606,7 +606,7 @@
 
                       Google Maps API collects information that is held in accordance with its Privacy Policy
                     </p>
-                    <button class="btn1 btn4 close" v-show="read20" @click="read20 = !read20">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn4 close" v-show="read20" @click="read20 = !read20"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -618,7 +618,7 @@
                 <section class="sec21">
                   <div v-show="!read21">
                     <h2 class="introHeader">What is personal data</h2>
-                    <button class="btn1" v-show="!read21" @click="read21 = !read21">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1" v-show="!read21" @click="read21 = !read21"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read21">
@@ -627,7 +627,7 @@
                     <p>
                       Any data that relates to an identifiable or identified individual. GDPR covers a broad spectrum of information that could be used on its own, or in combination with other pieces of information, to identify a person. Personal data extends beyond a person’s name or email address. Some examples include financial information, political opinions, genetic data, biometric data, IP addresses, physical address, sexual orientation, and ethnicity
                     </p>
-                    <button class="btn1 close" v-show="read21" @click="read21 = !read21">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 close" v-show="read21" @click="read21 = !read21"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -640,7 +640,7 @@
                 <section class="sec22">
                   <div v-show="!read22">
                     <h2 class="introHeader">The Data Protection Principles include requirements such as:</h2>
-                    <button class="btn1 btn2" v-show="!read22" @click="read22 = !read22">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn2" v-show="!read22" @click="read22 = !read22"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read22">
@@ -654,7 +654,7 @@
                         <li><p>People covered by the GDPR have the right to access their own personal data. They can also request a copy of their data, and that their data be updated, deleted, restricted, or moved to another organization.</p></li>
                       </ul>
                     </p>
-                    <button class="btn1 btn2 close" v-show="read22" @click="read22 = !read22">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn2 close" v-show="read22" @click="read22 = !read22"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -666,7 +666,7 @@
                 <section class="sec23">
                   <div v-show="!read23">
                     <h2 class="introHeader">Contact Us</h2>
-                    <button class="btn1 btn3" v-show="!read23" @click="read23 = !read23">Read <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
+                    <button class="btn1 btn3" v-show="!read23" @click="read23 = !read23"><span class="close-text">Read</span> <img src="../assets/images/Vector-caret.png" class="caret" ></button><br><br>
                   </div>
 
                   <div v-show="read23">
@@ -680,7 +680,7 @@
                         <li><p>Via Phone Number:  08149734622</p></li>
                       </ul>
                     </p>
-                    <button class="btn1 btn3 close" v-show="read23" @click="read23 = !read23">Close <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
+                    <button class="btn1 btn3 close" v-show="read23" @click="read23 = !read23"><span class="close-text">Close</span> <img src="../assets/images/Vector-caret-up.png" class="caret2" ></button><br><br><br>
                   </div>
 
                 </section>
@@ -980,8 +980,8 @@ section {
     text-align: left;
     border-radius: 20px;
     padding: 20px;
-    padding-bottom: 60px;
-    margin-bottom: 40px;
+    padding-bottom: 5px;/**where i made the section correction */
+    margin-bottom: 10px;
   }
   section img {
     padding-left: 4px;
@@ -989,8 +989,9 @@ section {
     width: 50px;
   }
   .introHeader {
-    font-size: 25px;
+    font-size: 24px;
     line-height: 40px;
+    width:250px;
   }
   button {
     float: right;
@@ -1009,10 +1010,10 @@ section {
     width: 20px;
   }
   .btn1{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 25px;
   }
   /*.close {
@@ -1022,10 +1023,19 @@ section {
   .caret, .caret2 {
     height: 15px;
     width: 20px;
+    margin-left: 0px;
   }
 
   .subheade-img {
     transform: translate(250px, -250px);
+  }
+  .close-text {
+    display: none;
+  }
+  .close {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
   }
   /*p {
     width: 310px;
