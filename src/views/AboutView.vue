@@ -77,6 +77,14 @@ export default {
     trustedBy,
     footerLinks
   }
+//  mounted() {
+//    $(window).scroll(function(){
+//        var scroll = $(window).scrollTop();
+//        $(".zoom-container .girl-at-supermarket").css({
+//            zoom: (1 + scroll/5) + "%"
+//        })
+//    })
+//  }
 }
 
 </script>
